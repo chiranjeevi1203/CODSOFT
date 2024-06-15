@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');html{
+    scroll-behavior: smooth;
+}
+body{
+    height: max-content;
+    background-image: linear-gradient(to right top, #c03885, #ac4495, #954f9f, #7c58a5, #635ea5, #5b5eab, #525eb0, #455eb6, #5358c4, #684dcf, #833cd5, #a017d6); 
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+   text-align: end;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   background: rgba( 255, 255, 255, 0.2 );
+   box-shadow:  0 0px 7px #c4e4f5;
+   backdrop-filter: blur( 3.5px );
+   -webkit-backdrop-filter: blur( 2.5px );
+   border: 2px solid rgba(252, 252, 250, 0.281);
+}
+.navbar a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: #29072b;
+    text-shadow:  0 2px 10px #d4c7e3;
+}
+.navbar a:hover{
+    color: #c4e4f5;
+}
+img{
+    float: left;
+    width: 100px;
+    height: 75px;
+}
+strong{
+    color: rgb(95, 199, 248);
+    text-shadow:  0 0px 10px #cbb5e5;
+}
+h1{
+    font-size: 75px;
+    margin-top: 150px;
+    text-align: center;
+    color: #26022e;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    color: #48034c   ;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.childdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hobbies, .whereilive, .me-online{
+    background: rgba(255, 255, 255, 0.153);
+    box-shadow:  0 0px 7px #c4e4f5, 0 0 20px 7px #8d99e8;
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+     border: 2px solid rgba(252, 252, 250, 0.281);
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.hobbies:hover, .whereilive:hover, .me-online:hover{
+    transform: scale(1.1);
+}
+.technicalskills{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.certificates, .download{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow:  0 0px 7px #c4e4f5;
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    padding: 10px;
+    width: 400px;
+    color: #240e74;
+}
+.info{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow:  0 0px 7px #c4e4f5;
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    padding: 10px; 
+    width: 400px;
+    color: #240e74;
+    font-family: "Poppins";
+}
+.form i, .info i{
+    font-size: 20px;
+}
+.c{
+    background-image: url(programming_languages_photos/c\,c++.png);
+    background-size:cover;
+    width: 210px;
+    height: 450px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+}
+.java{
+    background-image: url(programming_languages_photos/java.png);
+    background-size:cover;
+    width: 210px;
+    height: 450px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+}
+.js{
+    background-image: url(programming_languages_photos/js.png);
+    background-size:cover;
+    width: 210px;
+    height: 450px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+}
+.linux{
+    background-image: url(programming_languages_photos/linux.png);
+    background-size:cover;
+    width: 210px;
+    height: 450px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+}
+.html{
+    background-image: url(programming_languages_photos/html.png);
+    background-size:cover;
+    width: 210px;
+    height: 450px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+}
+.message{
+    display: none;
+    position: absolute;
+    text-align: center;  
+    background: rgba(12, 0, 0, 0.2);
+    box-shadow:  0 0px 7px #c4e4f5;
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    color: rgb(78, 14, 174);
+    padding: 10px;
+    height: 430px;
+    width: 190px;
+    border-radius: 20px;
+}
+.c:hover .message, .java:hover .message, .js:hover .message, .html:hover .message, .linux:hover .message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+p.intro{
+    text-align: left;
+    width: 850px;
+    margin: 0;
+    float: left;
+}
+img.Photo{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.ethical img, .infosys img, .google img{
+    width: 490px;
+    height: 300px;
+    border: 4px solid black;
+    box-shadow:  0 0px 20px #c4e4f5;
+}
+footer{
+    background-color: #8d99e8;
+    text-align: center;
+    color: #160529;
+    border-radius: 10px;
+}
+button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    background: #0e073a;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+button a{
+    text-decoration: none;
+    color: #c4e4f5;
+}
+  
+button:hover::before {
+    transform: scaleX(1)    
+  }
+  
+.button-content {
+    position: relative;
+    z-index: 1;
+}
+  
+button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  i{
+    font-size: 30px;
+    cursor: pointer;
+    color: #f8f4f8;
+    gap: 10px;
+  }
+  i:hover{
+    color: #160529;
+  }
+  :placeholder-shown{
+    font-family: "Poppins", sans-serif;
+    color: #240e74;
+  }

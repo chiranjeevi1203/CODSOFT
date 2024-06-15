@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HEAL LANDING PAGE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/da3f9adb6b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+<body>
+    <div class="navbar">
+        <div class="HEALLOGO">
+            <div class="logo"><i class="fa-solid fa-hand-holding-heart" style="color: #0e0e53;"></i> HEAL</div>
+        </div>  
+        <a href="#home">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#ourdoctors">Our Doctors</a>
+        <a href="#ourservices">Our Services</a>
+        <a href="#contactus">Contact Us</a>
+    </div>
+    <div class="home" id="home">
+        <div class="heading">
+            <div>
+                <h2>Your Health Is Our First Priority</h2><br><br>
+                <p>At HEAL, your health and well-being are at the heart of everything we do.From preventative care and routine check-ups to advanced medical treatments and emergency care, we are here to support you every step of the way. Our experienced healthcare professionals are dedicated to providing personalized care tailored to your individual needs. We understand that good health is the foundation of a happy and fulfilling life, and we are committed to helping you achieve and maintain it.</p>
+            </div>
+            <div><img class="Background" src="background/homepage.jpg" alt=""></div>
+        </div>
+        <button onclick="location.href='#contactus'">Book an Appointment</button>
+    </div>
+
+<!--------------------------about us------------------------------------------------------------------------------------------------------------------------------>
+    
+    <div class="aboutus" id="aboutus">
+        <div><img class="Background"  src="background/aboutpage.jpg" alt=""></div>
+        <div>
+            <h2>ABOUT HEAL</h2><br><br>
+            <p>At HEAL, your health and well-being are at the heart of everything we do. We are committed to providing top-quality healthcare services, personalized to meet your unique needs. Our team of dedicated professionals uses the latest medical advancements and a compassionate approach to ensure you receive the best possible care. We believe in a holistic approach to health, addressing not only your physical but also your emotional and mental well-being. Your health is our mission, and we strive to create a supportive and healing environment where you can thrive. Trust us to be your partners in health, because nothing is more important than your well-being.</p><br><br><br>
+            <button>Learn More</button>
+        </div>
+    </div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="ourdoctors" id="ourdoctors">
+            <h2>MEET OUR DOCTORS</h2> <br><br>
+            <p>Our team of doctors is dedicated to providing exceptional care with a personal touch. Each of our physicians brings a wealth of experience and expertise in their respective fields. Get to know the compassionate professionals who are committed to your health and well-being. Learn more about their backgrounds, specialties, and the passion they have for helping patients like you.</p> <br><br>
+            <div class="Doctors">
+                <div class="doctor1"><img src="doctors/doctor1.jpg" alt=""><br>Dr. Hary Taylor</div>
+                <div class="doctor2"><img src="doctors/doctor2.jpg" alt=""><br>Dr. Karen Dawson</div>
+                <div class="doctor3"><img src="doctors/doctor3.jpg" alt=""><br>Dr. Jack Simmons</div>
+                <div class="doctor4"><img src="doctors/doctor4.jpg" alt=""><br>Dr. Mitchel Sweedon</div>
+                <div class="doctor5"><img src="doctors/doctor5.jpg" alt=""><br>Dr. Carry Lien</div>
+            </div>
+    </div>
+
+<!---------------------------our services------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="ourservices" id="ourservices">
+        <div>
+            <h2>OUR SERVICES</h2><br><br>
+            <p>Explore our wide range of healthcare services designed to meet all your needs.<br> From routine check-ups to specialized treatments, we offer comprehensive care for every stage of life.</p><br><br> 
+            <img src="background/services.jpg" alt="">
+        </div>
+        <div class="services">
+            <div class="service1"><p>24/7 Service Assistant</p></div>
+            <div class="service2"><p>Professional Doctors</p></div>
+            <div class="service3"><p>Advanced Equipments</p></div>
+            <div class="service4"><p>Excellent Lab Tests</p></div>
+        </div>
+    </div>
+<!------------------contact us------------------------------------------------------------------------------------>
+    
+    <div class="contactus" id="contactus">
+            <h2>BOOK AN APPOINTMENT</h2> <br><br><br>
+            <div class="appointment">
+                <img src="background/appointment.jpg" alt="">
+                <form id="appointmentForm">
+                    <div class="form-group">
+                        <label for="fname">Full Name</label>
+                        <input type="text" id="fname" placeholder="Chiranjeevi">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+91 9988776655">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Booking Date</label>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="department">Department</label>
+                        <select id="department">
+                            <option>Select Department</option>
+                            <option>Dental</option>
+                            <option>Skin Care</option>
+                            <option>Gynaecological</option>
+                            <option>Child Clinic</option>
+                            <option>Surgery</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="doctor">Doctor</label>
+                        <select id="doctor">
+                            <option>Select Doctor</option>
+                            <option>Dr. Hary Taylor</option>
+                            <option>Dr. Karen Dawson</option>
+                            <option>Dr. Mitchel Sweedon</option>
+                            <option>Dr. Jack Simmons</option>
+                            <option>Dr. Carry Lien</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Write Something Here..."></textarea>
+                    </div>
+                    <button type="submit"  onclick="sendFunction()">Book An Appointment</button>
+                </form>
+            </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="footer-section">
+                <h3><i class="fa-solid fa-hand-holding-heart fa-bounce" style="color: #1c1b43;"></i> HEAL</h3>
+                <p>At HEAL, your health and well-being are at the heart of everything we do.</p>
+                <div class="media">
+                    <div class="icon facebook"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="icon linkedin"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="icon instagram"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="icon twitter"><i class="fa-brands fa-twitter"></i></div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Our Doctors</h3>
+                <ul>
+                    <li>Dr. Mitchel Sweedon</li>
+                    <li>Dr. Karen Dawson</li>
+                    <li>Dr. Mitchel Sweedon</li>
+                    <li>Dr. Jack Simmons</li>
+                    <li>Dr. Carry Lien</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Outpatient Surgery</li>
+                    <li>Cardiac Clinic</li>
+                    <li>Ophthalmology Clinic</li>
+                    <li>Gynaecological Clinic</li>
+                    <li>Outpatient Rehabilitation</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Our Locations</h3>
+                <ul>
+                    <li>Bangalore</li>
+                    <li>Mumbai</li>
+                    <li>Delhi</li>
+                    <li>Chennai</li>
+                    <li>Pune</li>
+                </ul>
+            </div>
+            <br>   
+        </footer>
+        <div class="footer-bottom">
+            <p>Copyrights © 2024 All Rights Reserved, Powered by HEAL.</p>
+        </div>
+    </div>
+</body>
+</html>
